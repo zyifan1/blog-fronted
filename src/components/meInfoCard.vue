@@ -1,0 +1,58 @@
+<template>
+
+  <div class="container">
+
+    <div class="cardTop">
+      <div class="avatar">
+        <img src="../assets/avatar.jpg" alt="头像">
+      </div>
+      <el-divider />
+      <div class="name font">
+        <slot name="name"></slot>
+      </div>
+    </div>
+
+    <div class="cardBottom">
+      <div class="introduction font">
+        <slot name="introduction"></slot>
+      </div>
+
+      <div class="birthday font">
+        <slot name="birthday"></slot>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</template>
+
+<script>
+
+</script>
+
+<style scoped>
+
+.container{
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img{
+  border-radius: 50%;
+  width: 90%;
+}
+
+.font{
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-bottom: 5%;
+}
+
+</style>
