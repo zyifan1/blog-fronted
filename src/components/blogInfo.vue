@@ -34,7 +34,7 @@
     <div class="middle">
 
       <div class="middleTitle">
-        小周太酷啦
+        风起于青萍之末,浪成于微澜之间
       </div>
 
       <div class="search">
