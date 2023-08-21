@@ -34,7 +34,7 @@
     <div class="middle">
 
       <div class="middleTitle">
-        风起于青萍之末,浪成于微澜之间
+        不要麻木,不要被同化,拼命成为那个有力量破釜沉舟的人。
       </div>
 
       <div class="search">
