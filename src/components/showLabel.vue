@@ -7,8 +7,8 @@
 
 <script setup>
 
-import VueLabel from "./blogLabel/vueLabel.vue";
-import JavaLabel from "./blogLabel/javaLabel.vue";
+import VueLabel from "./icon/vueLabel.vue";
+import JavaLabel from "./icon/javaLabel.vue";
 
 const props = defineProps(['vue','java'])
 

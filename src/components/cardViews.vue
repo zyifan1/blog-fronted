@@ -1,5 +1,6 @@
 <template>
   <Viewer :value="contentInfo" :plugins="plugins" class="markdownView"></Viewer>
+
 </template>
 
 <script setup>
@@ -9,10 +10,11 @@ import gfm from "@bytemd/plugin-gfm";
 import {Viewer} from '@bytemd/vue-next'
 import {ref} from "vue";
 
-const plugins = [gfm(), highlight()];
+const plugins = [highlight(),gfm()];
 const props = defineProps(['content'])
 
 const contentInfo = ref(props.content)
+
 
 
 // const {content} = props.content

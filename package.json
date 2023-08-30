@@ -12,9 +12,10 @@
     "@bytemd/plugin-gfm": "^1.21.0",
     "@bytemd/plugin-highlight": "^1.21.0",
     "@bytemd/vue-next": "^1.21.0",
-    "github-markdown-css": "^5.2.0",
     "@splidejs/vue-splide": "^0.6.12",
+    "axios": "^1.4.0",
     "element-plus": "^2.3.7",
+    "github-markdown-css": "^5.2.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },

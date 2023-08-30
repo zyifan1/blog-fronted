@@ -4,5 +4,5 @@
   font-family: '仿宋' ,sans-serif;
   /*overflow-x: hidden;*/
   /*overflow-y: auto;*/
-
+  box-sizing: border-box;
 }

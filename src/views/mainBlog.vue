@@ -4,7 +4,8 @@
     <gradient-background class="background"></gradient-background>
 
     <div class="mainTo" id="mainTo">
-      <h1 class="mainTitle"><p>欢迎光临淘气小周的博客</p></h1>
+<!--      <h1 class="mainTitle">欢迎光临淘气小周的博客</h1>-->
+      <div class="title">欢迎光临淘气小周的博客</div>
       <btn class="mainBtn" @click="toBlog">进入</btn>
     </div>
 
@@ -64,7 +65,12 @@ const toBlog = () => {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  overflow: auto;
+  //overflow: hidden;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .container::-webkit-scrollbar {
